@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --config=playwright.config.ts --workers=4",
-    "esLint": "npx playwright test --config=playwright.config.ts  --workers=2  --update-snapshots"
+    "eslint": "eslint --format html . -o index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,14 @@
     "@types/node": "^20.3.1",
     "ts-node": "10.7.0",
     "typescript": "4.6.2",
-    "winston": "3.8.1"
+    "winston": "3.8.1",
+    "eslint": "^8.48.0",
+    "eslint-formatter-html": "^2.4.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-playwright": "^0.16.0",
+    "esm": "^3.2.25",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0"
   },
   "dependencies": {
     "@axe-core/playwright": "^4.4.5",
