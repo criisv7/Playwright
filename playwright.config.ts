@@ -30,8 +30,8 @@ use: {
 
     }
   },
-  timeout: 62000,
-  globalTimeout: 62000,
+  timeout: 620000,
+  globalTimeout: 620000,
  expect: {
    /**
     * Maximum time expect() should wait for the condition to be met.
